@@ -5,6 +5,9 @@ MethodLength:
 LineLength:
     Max: 160
 
+AbcSize:
+    Enabled: false
+
 FileName:
     Enabled: false
 
