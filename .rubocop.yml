@@ -8,6 +8,7 @@ LineLength:
 AbcSize:
   Max: 75
 
+
 FileName:
   Enabled: false
 
