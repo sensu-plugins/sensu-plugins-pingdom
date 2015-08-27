@@ -5,7 +5,13 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 
 ## Unreleased
 
-## [0.0.2] - 2015-07-14
+## [0.0.4] - 2015-08-26
+### Changed
+- convert string to integer in timeout option
+
+## [0.0.3] - 2015-07-14
+
+## [0.0.2] - 2015-07-44
 ### Changed
 - updated sensu-plugin gem to 1.2.0
 
@@ -13,4 +19,3 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 
 ### Added
 - initial release
-
