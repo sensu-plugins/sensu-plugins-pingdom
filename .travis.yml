@@ -16,13 +16,15 @@ notifications:
     on_failure: always
 script:
 - bundle exec rake default
+- gem build sensu-plugins-pingdom.gemspec
+- gem install sensu-plugins-pingdom-*.gem
 deploy:
   provider: rubygems
   api_key:
-    secure: LKXQ5xcI5GfP48gMxEbF4tF0T4qEpR+tNzY8Z95S363XUQ6Lish5kt1mmYUhcrBS82041AdgRypd+9MUhlARnIrh0OdpKwns5UcMovxe1F0bQsUV9j5IMaokDFRbcztoMeOnu7S/UYSaDbTGkvIhfvJzg+zGiN3YBpyo3lfzMAI=
+    secure: az/QH8OfZYQcsyTkvS7VKjFclDetX3yspU7xAriFJmB0/m1wA/aEbkZyPj81CsKOJtOJoaoeh9j9NlYOfzj+Vua/oehjgHE7Kh3tqbkKjvfb4wnvGKjRU+nRIBjks50zlr9MkvroDpg6PRWiUND3WPxXOLDHX9D9W+WM6r2bXm0=
   gem: sensu-plugins-pingdom
   on:
-    tags: true
+    ags: true
     all_branches: true
     rvm: 1.9.3
     rvm: 2.0
