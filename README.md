@@ -1,6 +1,6 @@
 ## Sensu-Plugins-pingdom
 
-[ ![Build Status](https://travis-ci.org/sensu-plugins/sensu-plugins-pingdom.svg?branch=master)](https://travis-ci.org/sensu-plugins/sensu-plugins-pingdom)
+[![Build Status](https://travis-ci.org/sensu-plugins/sensu-plugins-pingdom.svg?branch=master)](https://travis-ci.org/sensu-plugins/sensu-plugins-pingdom)
 [![Gem Version](https://badge.fury.io/rb/sensu-plugins-pingdom.svg)](http://badge.fury.io/rb/sensu-plugins-pingdom)
 [![Code Climate](https://codeclimate.com/github/sensu-plugins/sensu-plugins-pingdom/badges/gpa.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-pingdom)
 [![Test Coverage](https://codeclimate.com/github/sensu-plugins/sensu-plugins-pingdom/badges/coverage.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-pingdom)

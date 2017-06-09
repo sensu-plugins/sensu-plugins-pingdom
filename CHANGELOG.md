@@ -1,9 +1,17 @@
-#Change Log
+# Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachangelog.com/)
 
 ## [Unreleased]
+### Added
+- Support for Ruby 2.3 and 2.4 (@eheydrick)
+
+### Removed
+- Support for Ruby < 2 (@eheydrick)
+
+### Changed
+- Loosen `sensu-plugin` dependency to `~> 1.2` (@eheydrick)
 
 ## [0.0.4] - 2015-08-26
 ### Changed
