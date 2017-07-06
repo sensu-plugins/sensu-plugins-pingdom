@@ -11,6 +11,7 @@
 ## Files
  * bin/check-pingdom-aggregates.rb
  * bin/check-pingdom-credits.rb
+ * bin/check-pingdom-single.rb
 
 ## Usage
 
