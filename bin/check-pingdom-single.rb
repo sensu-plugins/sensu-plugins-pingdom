@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 #
-# Check Pingdom single alert (checks down)
+# Check Pingdom single alert
 # ===
 #
 # Alerts if the check associated with the given check ID is down in the Pingdom account.
@@ -22,7 +22,7 @@
 # gem 'rest-client'
 # gem 'json'
 #
-# Created by Maggie Moreno, 2017
+# Created by Maggie Moreno maggie@tubularlabs.com, 2017
 #
 # Released under the same terms as Sensu (the MIT license); see LICENSE
 # for details.
@@ -71,7 +71,6 @@ class CheckPingdomAggregates < Sensu::Plugin::Check::CLI
       timeout: config[:timeout]
     )
     JSON.parse(resource.get, symbolize_names: true)
-
   rescue RestClient::RequestTimeout
     warning 'Connection timeout'
   rescue SocketError
