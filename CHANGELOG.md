@@ -4,6 +4,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachangelog.com/)
 
 ## [Unreleased]
+### Added
+- Command to alert of a single Pindgom check (@missmaggiemo)
 
 ## [1.0.0] - 2017-06-08
 ### Added
